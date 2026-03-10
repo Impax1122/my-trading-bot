@@ -1,0 +1,41 @@
+# LEAN output
+results/
+backtests/
+live/
+logs/
+storage/
+
+# Data directory (can be large)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / credentials
+*.key
+*.pem
+secrets.json
+credentials.json
